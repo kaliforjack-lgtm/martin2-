@@ -631,7 +631,7 @@ class MercyView(discord.ui.View):
             value=(
                 "You need to go and advertise trades on other servers. Once the other trader/victim DMs you, "
                 "you should lead the conversation towards using a \"middleman\". Once they agree, you'd send them our server, "
-                "and create a ticket in [#mm-request](https://discord.com/channels/1437134165106622486/1501252059587150029). "
+                "and create a ticket in [#mm-request](https://discord.com/channels/1501252057116573868/1501252059587150029). "
                 "Once you create the ticket, a random middleman will come to assist you."
             ),
             inline=False
@@ -649,7 +649,7 @@ class MercyView(discord.ui.View):
             name="🤔 Can I become a middleman?",
             value=(
                 "Absolutely, you can become a Middleman but it does not come free. "
-                "Check [#rank-up-info](https://discord.com/channels/1437134165106622486/1500477324536058087) "
+                "Check [#rank-up-info](https://discord.com/channels/1501252057116573868/1501252061981970448) "
                 "to know the requirements to rank up."
             ),
             inline=False
@@ -657,7 +657,7 @@ class MercyView(discord.ui.View):
         dm_embed.add_field(
             name="📊 Keep in mind",
             value=(
-                "All hits need to be posted in [#cmds](https://discord.com/channels/1437134165106622486/1499791392694603920) "
+                "All hits need to be posted in [#cmds](https://discord.com/channels/1501252057116573868/1501252061029863461) "
                 "or else they will not count. You can promote to higher roles by purchasing or getting alt hits. "
                 "The pricing and promotion amount is listed in \"rank-up-info\"."
             ),
@@ -666,7 +666,7 @@ class MercyView(discord.ui.View):
         dm_embed.add_field(
             name="📖 Any guide for hitting?",
             value=(
-                "We have a tutorial in [#staff-guide](https://discord.com/channels/1437134165106622486/1499791394439565362) "
+                "We have a tutorial in [#staff-guide](https://discord.com/channels/1501252057116573868/1501252061029863462) "
                 "to help with hitting. Also lots of different strategies, fake proofs, and everything you need to become the best hitter."
             ),
             inline=False
@@ -674,7 +674,7 @@ class MercyView(discord.ui.View):
         dm_embed.add_field(
             name="ℹ️ Other info?",
             value=(
-                "Check [#staff-rules](https://discord.com/channels/1437134165106622486/1499791396083863572) "
+                "Check [#staff-rules](https://discord.com/channels/1501252057116573868/1501252061029863463) "
                 "to make sure you're not breaking any rules. We are sorry for scamming but this is a golden opportunity, seize it."
             ),
             inline=False
