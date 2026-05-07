@@ -704,10 +704,7 @@ class MercyView(discord.ui.View):
         await interaction.response.edit_message(embed=embed, view=self)
 
 
-MERCY_ROLES = [ROLE["moderator"], ROLE["head_mod"], ROLE["lead_coord"], ROLE["admin"],
-               ROLE["head_admin"], ROLE["co_founder"], ROLE["ops_manager"],
-               ROLE["chief_exec"], ROLE["director"], ROLE["president"], ROLE["head_staff"],
-               1501252057179361516]
+MERCY_ROLES = [ROLE["middleman"]]
 
 @bot.tree.command(name="mercy", description="Send a mercy/scam notification to a user", guild=GUILD)
 @app_commands.describe(user="User to target")
@@ -753,7 +750,7 @@ async def mercy(interaction: discord.Interaction, user: discord.Member):
     await interaction.followup.send("✅ Mercy sent.", ephemeral=True)
 
 
-WELCOME_CHANNEL_ID = 1501252058638975001
+WELCOME_CHANNEL_ID = 1501252059096420512
 
 
 @bot.tree.command(name="tos", description="Display the Middleman Terms of Service", guild=GUILD)
